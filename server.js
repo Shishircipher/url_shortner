@@ -13,6 +13,7 @@ function generateShortCode(length = 6) {
   return Array.from({ length }, () => chars[Math.floor(Math.random() * chars.length)]).join('');
 }
 
+
 app.post('/shorten', async (req, res) => {
     const { original_url, expires_at } = req.body;
     if (!original_url) return res.status(400).json({ error: 'original_url is required' });
@@ -101,6 +102,6 @@ app.post('/shorten', async (req, res) => {
     res.json(result);
   });
 
-  
-  app.listen(3010, () => console.log('API running on http://localhost:3010'));
+
+  app.listen(3000, () => console.log('API running on http://localhost:3000'));
         
