@@ -34,7 +34,7 @@ npm install
 ### 1. Download & Run PocketBase
 
 Download the latest PocketBase binary from:
-👉 [https://pocketbase.io/download/](https://pocketbase.io/download/)
+👉 [https://pocketbase.io/docs/](https://pocketbase.io/docs/)
 
 Then run it:
 
